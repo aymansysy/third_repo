@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  
+    background-image: linear-gradient(to top right, rgb(39, 37, 37), black,rgb(32, 31, 31), rgb(82, 78, 78));
+    color: white;
+    font-size: 14px;
+     
+}
+.navbar{
+    background-image: linear-gradient(to top right, rgb(31, 28, 28), rgb(29, 26, 26),rgb(49, 47, 47), rgb(95, 89, 89));
+    margin: 0px 70px 40px 70px;
+    height:80px;
+    font-family: Arial,  sans-serif;
+
+}
+
+.logo{
+    margin-left: 0;
+    height:27px;
+}
+.navigation-ietms{ 
+    margin-left: 38%;
+}
+#profile {
+    border-radius: 25px;
+    background-color:rgb(238, 80, 23);
+    height:20px;
+    width:48px;
+}
+div ul{
+    list-style-type:none;
+    display:flex;
+    flex-direction:row;
+     }
+div ul li{
+    padding:10px 10px;
+    margin:18px;
+     }
+.navigation-ietms a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: fantasy;
+}
+.navigation-ietms a:hover {
+    font-family: sans-serif;
+    color: rgb(238, 80, 23);
+    font-size: 20px;
+    text-decoration: wavy;
+      }
+.header{
+    text-align: center;
+    font-size: 27px;
+    font-style: normal;
+    color: rgb(238, 80, 23);
+    font-family: Arial,  sans-serif;
+
+
+}
+hr{
+    border: 1px solid rgb(238, 80, 23);
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.pictures{
+    margin-left: 130px;
+    text-align: center;
+
+}
+.pictures img{
+    border-radius: 22px;
+}
+img:hover {
+    box-shadow: 0 0 8px 6px rgba(238, 80, 23);
+  }
+
+.clr{
+    clear:both;
+      }
+
+.main h6{
+    text-align: center;
+    font-size: 27px;
+    font-style: normal;
+    color: rgb(238, 80, 23);
+}
+.main p{
+    padding: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: Arial,  sans-serif;
+
+}
+.footer{
+    text-align:center;
+    background-color: rgb(32, 31, 31);
+    height:10px;
+    width: 100%;
+    padding: 40px;
+    font-family: Arial;
+
+
+}
